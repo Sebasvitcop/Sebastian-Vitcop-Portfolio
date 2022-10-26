@@ -5,8 +5,6 @@
   font-family: 'Lato', sans-serif;
 }
 
-
-
 .propiedades-p1 {
   color: hwb(0 100% 0%);
   width: 100%;
@@ -75,9 +73,6 @@ height: 110px;
   border-radius: 8px;
 }
 
-
- 
-}
 .seccion-1-der {
   width: 50%;
   display: flex;
@@ -285,11 +280,14 @@ height: 110px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(89, 85, 85);
   margin: 30px 80px;
+  }
+
+
+
+/* productos */
+.imagenes-productos {
+  height: 500px;
 }
-
-
-
-
 
 
 
