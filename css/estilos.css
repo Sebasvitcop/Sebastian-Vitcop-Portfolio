@@ -6,12 +6,12 @@
 }
 
 .propiedades-p1 {
-  color: red;
+  color: hwb(0 100% 0%);
   width: 100%;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  background-color: burlywood;
+  background-color: rgb(181, 153, 117);
   }
 
 .header {
@@ -27,7 +27,7 @@ z-index: 1000;
 .iconos-header {
 text-align: right;
 text-decoration: none;
-background-color: burlywood;
+background-color: #F4E7CA;
 }
 
 .propiedades-nav {
@@ -253,13 +253,13 @@ a {
 }
 
 .propiedad-p3 {
-  background-color: black;
+  background-color: rgb(27, 24, 24);
   color: aliceblue;
   text-align: center;
 }
 
 footer {
-  background-color: black;
+  background-color: rgb(27, 24, 24);
   color: aliceblue;
 }
 
