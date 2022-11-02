@@ -15,12 +15,11 @@
 }
 
 .header {
-  background-color: white;
+  background-color: #F4E7CA;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-
   z-index: 1000;
 }
 
@@ -31,29 +30,26 @@
   padding: 10px;
 }
 
+.iconos-header a img {
+  border-radius: 20px;
+}
+
+/* el nav con bootstrap me da un espacio en blanco */
 nav div a img {
   margin-left: 50px;
   margin-right: 16px;
   padding: 20px;
 }
 
-/* el nav me da un espacio en blanco que no pude sacar entre la descripcion de los 3000$ y los links de redes arriba */
-nav {
-height: 110px;
-}
-
 .main {
   background: #F4E7CA;
-  ;
+  width: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-top: 196px;
 }
 
-.main__inicio {
-  display: grid;
-  width: 90%;
-}
+
 
 .seccion-1 {
   display: flex;
@@ -64,12 +60,12 @@ height: 110px;
 
 .seccion-1-izq {
   width: 50%;
-  height: 330px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
-  margin-top: 10px;
+  margin-top: 70px;
   border-radius: 8px;
 }
 
@@ -81,6 +77,7 @@ height: 110px;
   flex-direction: column;
   padding: 40px;
   margin-left: 15px;
+  margin-top: 70px;
 }
 
 .texto1 {
@@ -128,15 +125,7 @@ height: 110px;
   padding: 10px;
 
   grid-template-columns: repeat(4, 1fr);
-  /* 2 filas */
-  /*genera las filas de dicha cuadricula*/
   grid-template-rows: repeat(2, 200px);
-
-  /* grid-template-areas: luego puedo porbar esta funcion*/
-  /* "img1 img2 img3" /* Primera fila de la cuadricula */
-  /* "img4 img5 img6" /* Seguna fila de la cuadricula */
-  /* Acá siguen mas filas con mas productos */
-
   gap: 25px;
   margin: 10px;
 }
@@ -145,13 +134,11 @@ height: 110px;
   border-radius: 5px;
   overflow: hidden;
   transition: all 1s;
-  
+
   /*position: relative; futura descrip. de producto y precio para cada item */
 }
 
-.imagenes__grid__hijo :hover {
-
-}
+.imagenes__grid__hijo :hover {}
 
 .imagenes__grid__hijo--1 {
   justify-self: center;
@@ -172,7 +159,6 @@ height: 110px;
 .ofertas {
   margin-top: 70px;
 }
-
 
 .imagenes__grid__hijo--5 {
   justify-self: center;
@@ -201,17 +187,14 @@ height: 110px;
   margin-top: 45px;
   display: flex;
   justify-content: center;
- 
+
   border-radius: 8px;
   text-align: center;
-  
 }
 
 .novedades-izq {
   width: 50%;
   margin-top: 20px;
- 
-  border-radius: 8px;
 }
 
 .novedades-der {
@@ -219,11 +202,11 @@ height: 110px;
   padding-left: 70px;
   margin-left: 100px;
   margin-top: 20px;
-   
+  border-radius: 12px;
 }
 
-.video {
-  
+.row {
+  justify-content: space-between;
 }
 
 .simbolos {
@@ -271,6 +254,10 @@ height: 110px;
   margin: 50px;
 }
 
+.redes-footer__3 ul li a img {
+  border-radius: 20px;
+}
+
 /* Sección "quienes Somos" */
 
 .quienes-somos {
@@ -280,7 +267,7 @@ height: 110px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(89, 85, 85);
   margin: 30px 80px;
-  }
+}
 
 
 
@@ -355,3 +342,227 @@ footer a {
 ul {
   list-style: none;
 }
+
+/* media querie de AL MENOS 768PX OSEA ESO PAR QUE SE EJECUTE. */
+/* Min-width: Si el contenido tiene un ancho menor a XXXpx, usaremos un párrafo con XX px de tamaño. Osea, min-width: de ACA para arriba */
+/* MAX-width: de XXXpx para abajo */
+@media screen and (max-width: 600px) {
+
+
+  .iconos-header {
+    text-decoration: none;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .main {
+    width: 150%;
+  }
+
+  .seccion-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .seccion-1-izq {
+    width: 100%;
+    display: flex;
+  }
+
+  .seccion-1-der {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+
+  .texto1 {
+    font-size: 1.6rem;
+  }
+
+  .propiedades-titulo {
+    font-size: 76px;
+  }
+
+  .propiedades-titulo-sub {
+    font-size: 56px;
+  }
+
+  .imagenes {
+    display: grid;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    padding-right: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 400px);
+  }
+
+  .novedades-izq {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .novedades-der {
+    width: 60%;
+    padding-left: 70px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+  }
+
+  .simbolos {
+    display: flex;
+    margin-top: 40px;
+    background-color: darkgrey;
+    color: black;
+    margin-bottom: 30px;
+    height: 200px;
+  }
+
+  .simbolos__1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 50px;
+  }
+
+  .simbolos__2 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 50px;
+  }
+
+  .simbolos__3 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 50px;
+  }
+
+  .redes-footer__3 ul li a img {
+    border-radius: 20px;
+  }
+
+  /* Sección "quienes Somos" */
+
+  .quienes-somos {
+    line-height: 1.7;
+    text-align: justify;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(89, 85, 85);
+    margin: 30px 80px;
+  }
+
+
+
+  /* productos */
+  .imagenes-productos {
+    height: 500px;
+  }
+
+
+
+
+
+
+  /* css de footer */
+  a {
+    text-decoration: none;
+  }
+
+  .propiedad-p3 {
+    background-color: rgb(27, 24, 24);
+    color: aliceblue;
+    text-align: center;
+  }
+
+  footer {
+    background-color: rgb(27, 24, 24);
+    color: aliceblue;
+  }
+
+  footer a {
+    color: aliceblue;
+  }
+
+  .redes-footer {
+    display: flex;
+    padding: 50px;
+  }
+
+  .redes-footer__1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    flex-direction: column;
+  }
+
+  .redes-footer__2 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    flex-direction: column;
+  }
+
+  .redes-footer__3 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    flex-direction: column;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+
+
+
+
+
+  @media screen and (min-width: 768px) {
