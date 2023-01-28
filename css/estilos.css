@@ -36,10 +36,14 @@
 }
 
 /* el nav con bootstrap me da un espacio en blanco */
+/* Lo solucioné sacando el heigh y width del HTML de la img y sacando el padding en css de la img, pero agregando un width 10% */
+
 nav div a img {
   margin-left: 50px;
   margin-right: 16px;
-  padding: 20px;
+  width: 11%;
+  padding: 0;
+  
 }
 
 .main {
