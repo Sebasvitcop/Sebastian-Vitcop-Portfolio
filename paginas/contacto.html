@@ -13,7 +13,7 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- link css -->
     <link rel="stylesheet" href="../css/estilos.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <enlace rel="preconectar" href="https://fonts.googleapis.com">
         <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
             <enlace
@@ -66,13 +66,14 @@
     </header>
     <main class="main">
         <section>
-            <h1 class="propiedades-titulo-sub">Contactanos</h1>
+            <h1 class="propiedades-titulo-sub animate__animated animate__pulse">Ponete en contacto</h1>
         </section>
-        <br>
         <section>
-            <p>Escribinos:</p>
-            <!-- formulario de subscripcion -->
-            <form action="/formulario" method="get">
+            <!-- formulario de subscripcion hecho con form a mano -->
+
+            <form class="form" action="/formulario" method="get">
+                <div class="form__container"></div>
+
                 <label for="Nombre">Nombre</label>
                 <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" />
 
@@ -89,6 +90,19 @@
                 <button type="submit">Tipo submit</button>
                 <button type="reset">Tipo reset</button>
             </form>
+
+  <!-- formulario de subscripcion hecho con form a mano -->
+
+  <form class="form" action="/formulario" method="get">
+    <div class="form__container"></div>
+<h2>Contactanos</h2>
+<input type="text" class="form_input" aria-placeholder="Nombre"/>
+<input type="email" class="form_input" aria-placeholder="Correo electrónico"/>
+<textarea class="form_input form_input--comentario" placeholder="Comentario..."></textarea>
+
+<input type="submit" value="Enviar" class="form_enviar">
+
+
         </section>
 
 
