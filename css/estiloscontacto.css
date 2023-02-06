@@ -1,0 +1,136 @@
+/* media query para contacto 768px */
+
+
+
+
+
+
+
+
+/* Sección "quienes Somos" */
+
+.quienes-somos {
+  line-height: 1.7;
+  text-align: justify;
+  font-weight: lighter;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(89, 85, 85);
+  margin: 30px 80px;
+}
+
+/* productos */
+.imagenes-productos {
+  height: 500px;
+}
+
+/* css de footer */
+a {
+  text-decoration: none;
+}
+
+.propiedad-p3 {
+  background-color: rgb(27, 24, 24);
+  color: aliceblue;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(27, 24, 24);
+  color: aliceblue;
+}
+
+footer a {
+  color: aliceblue;
+}
+
+.redes-footer {
+  display: flex;
+  padding: 50px;
+}
+
+.redes-footer__1 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  flex-direction: column;
+}
+
+EDITARRRR ESTOOOOO .redes-footer__2 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
