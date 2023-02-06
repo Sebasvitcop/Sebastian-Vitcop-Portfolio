@@ -276,7 +276,7 @@ nav div a img {
 
 /* Pagina Productos */
 .imagenes-productos {
-  height: 200px;
+  height: 500px;
 }
 
 /* Pagina Como Comprar */
@@ -285,9 +285,9 @@ nav div a img {
 
 /* Pagina Contacto */
 
-.formulario {
+.formulario { 
   display: flex;
-  height: 140vh;
+  height:140vh;
   width: 100%;
 }
 
@@ -314,31 +314,34 @@ nav div a img {
 }
 
 .form_input {
-  font-size: 1rem;
-  padding: .8em 1em;
-  outline: none;
-  border: none;
-  border: 1px solid #bbb0b0;
-  border-radius: 0.2em;
+font-size: 1rem;
+padding: .8em 1em;
+outline: none;
+border: none;
+border: 1px solid #bbb0b0;
+border-radius: 0.2em;
 }
 
 .form_input--comentario {
-  resize: none;
-  padding: 1.8em 1em;
-  margin-bottom: 1.5em;
+resize: none;
+padding: 1.8em 1em;
+margin-bottom: 1.5em;
 }
 
 .form_enviar {
-  color: #f8f0f0;
-  background-color: #12a1df;
-  border: none;
-  font-weight: 300;
-  font-size: 1rem;
-  padding: .7em 0;
-  border-radius: .2em;
-  cursor: pointer;
-  font-weight: 400;
+  color: #fff;
+  background-color: #089fe0;
+border: none;
+font-weight: 300;
+font-size: 1rem;
+padding: .7em 0;
+border-radius: .2em;
+cursor: pointer;
+font-weight: 400;
+
+
 }
+
 
 /* css de footer */
 
@@ -456,11 +459,11 @@ ul {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 400px);
   }
-
+  
   .responsive-iframe {
     width: 80%;
   }
-
+  
   .simbolos {
     display: flex;
     flex-shrink: 2;
@@ -480,7 +483,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: initial;
-
+    
     font-size: 25px;
     letter-spacing: 0px;
     line-height: 1.2;
@@ -519,14 +522,13 @@ ul {
   /* Pagina Contacto */
 
   .propiedades-titulo-sub--contacto {
-    padding-top: 50px;
+padding-top: 50px;
   }
 
   .form {
     padding: 3.5em 1em;
-  }
-
-  /* Sección "quienes Somos" */
+}
+    /* Sección "quienes Somos" */
 
   .quienes-somos {
     line-height: 1.7;
@@ -539,68 +541,60 @@ ul {
 
   /* productos */
   .imagenes-productos {
-    height: 600px;
-    display: grid;
-    height: auto;
-    gap: 30px;
-    padding-right: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 400px);
+    height: 500px;
   }
 
-}
+  /* css de footer */
+  a {
+    text-decoration: none;
+  }
 
-/* css de footer */
-a {
-  text-decoration: none;
-}
+  .propiedad-p3 {
+    background-color: rgb(27, 24, 24);
+    color: aliceblue;
+    text-align: center;
+  }
 
-.propiedad-p3 {
-  background-color: rgb(27, 24, 24);
-  color: aliceblue;
-  text-align: center;
-}
+  footer {
+    background-color: rgb(27, 24, 24);
+    color: aliceblue;
+  }
 
-footer {
-  background-color: rgb(27, 24, 24);
-  color: aliceblue;
-}
+  footer a {
+    color: aliceblue;
+  }
 
-footer a {
-  color: aliceblue;
-}
+  .redes-footer {
+    display: flex;
+    padding: 50px;
+  }
 
-.redes-footer {
-  display: flex;
-  padding: 50px;
-}
+  .redes-footer__1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    flex-direction: column;
+  }
 
-.redes-footer__1 {
-  width: 33%;
-  display: flex;
-  justify-content: center;
-  align-items: initial;
-  font-size: 20px;
-  letter-spacing: 0px;
-  line-height: 1.2;
-  flex-direction: column;
-}
+  /* mejorar este footer */
+  .redes-footer__2 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    flex-direction: column;
+  }
 
-/* mejorar este footer */
-.redes-footer__2 {
-  width: 33%;
-  display: flex;
-  justify-content: center;
-  align-items: initial;
-  font-size: 20px;
-  letter-spacing: 0px;
-  line-height: 1.2;
-  flex-direction: column;
-}
-
-ul {
-  list-style: none;
-}
+  ul {
+    list-style: none;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -629,7 +623,7 @@ ul {
   }
 
   .propiedades-titulo {
-    margin-bottom: 0px;
+margin-bottom: 0px ;
   }
 
   .imagenes {
@@ -648,7 +642,7 @@ ul {
     margin-top: 40px;
     height: 400px;
   }
-
+ 
   .simbolos__1 {
     width: auto;
     display: flex;
@@ -673,11 +667,9 @@ ul {
   .redes-footer__3 ul li a img {
     border-radius: 20px;
   }
-
   .redes-footer__1 {
     display: none;
   }
-
   .redes-footer__2 {
     width: 100%;
   }
@@ -686,3 +678,56 @@ ul {
     padding-bottom: 10px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
