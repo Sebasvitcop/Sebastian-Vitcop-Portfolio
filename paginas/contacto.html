@@ -66,51 +66,28 @@
     </header>
     <main class="main">
         <section>
-            <h1 class="propiedades-titulo-sub animate__animated animate__pulse">Ponete en contacto</h1>
+            <h1
+                class="propiedades-titulo-sub propiedades-titulo-sub--contacto propiedades-titulo-sub animate__animated animate__pulse">
+                Ponete en contacto</h1>
         </section>
-        <section>
-            <!-- formulario de subscripcion hecho con form a mano -->
+        <section class="formulario">
+            <form class="form">
+                <div class="form__container">
+                    <h2 class="form__titulo">Dejanos tu mensaje:</h2>
+                    <input type="text" class="form_input" placeholder="Nombre y apellido" aria-placeholder="Nombre" />
+                    <input type="email" class="form_input" placeholder="Correo electrónico"
+                        aria-placeholder="Correo electrónico" />
+                    <textarea class="form_input form_input--comentario" placeholder="Comentario..."></textarea>
 
-            <form class="form" action="/formulario" method="get">
-                <div class="form__container"></div>
-
-                <label for="Nombre">Nombre</label>
-                <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" />
-
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
-
-                <label for="mail">Mail</label>
-                <input type="email" id="Mail" name="Mail" placeholder="Mail" />
-
-                <label for="comentario">Comentario</label>
-                <textarea name="comentario" id="comentario" placeholder="Ingrese comentario." name="comentario"
-                    cols="50" rows="10"></textarea>
-
-                <button type="submit">Tipo submit</button>
-                <button type="reset">Tipo reset</button>
+                    <input type="submit" value="Enviar" class="form_enviar">
+                </div>
             </form>
-
-  <!-- formulario de subscripcion hecho con form a mano -->
-
-  <form class="form" action="/formulario" method="get">
-    <div class="form__container"></div>
-<h2>Contactanos</h2>
-<input type="text" class="form_input" aria-placeholder="Nombre"/>
-<input type="email" class="form_input" aria-placeholder="Correo electrónico"/>
-<textarea class="form_input form_input--comentario" placeholder="Comentario..."></textarea>
-
-<input type="submit" value="Enviar" class="form_enviar">
-
-
         </section>
-
-
     </main>
     <footer>
         <!-- Lista de enlaces de interes -->
         <div class="redes-footer">
-            <nav class="redes-footer__1">
+            <nav class="redes-footer__2">
                 <h3>Categorias</h3>
                 <ul>
                     <li>
@@ -124,23 +101,6 @@
                     </li>
                 </ul>
             </nav>
-            <!--seccion pensada para llevar a como comprar y secciones de pago y envio. Todavia en evolucion-->
-
-            <nav class="redes-footer__2">
-                <h3>Ayuda</h3>
-                <ul>
-                    <li>
-                        <a href="./como-comprar.html">Cómo-comprar</a>
-                    </li>
-                    <li>
-                        <a href="./como-comprar.html">Medios de Pago</a>
-                    </li>
-                    <li>
-                        <a href="./como-comprar.html">Condiciones de envio</a>
-                    </li>
-                </ul>
-            </nav>
-
             <!--logos de: telefono, sobre e ig. A la izquierda de cada uno la info correspondiente.-->
             <nav class="redes-footer__3">
                 <h3>Contactanos por:</h3>

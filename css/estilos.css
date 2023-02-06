@@ -285,6 +285,62 @@ nav div a img {
 
 /* Pagina Contacto */
 
+.formulario { 
+  display: flex;
+  height:140vh;
+  width: 100%;
+}
+
+.form {
+  background-color: #fff;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+  margin: auto;
+}
+
+.form__container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form__titulo {
+  text-align: center;
+  font-size: 1.9em;
+  margin-bottom: .4em;
+}
+
+.form_input {
+font-size: 1rem;
+padding: .8em 1em;
+outline: none;
+border: none;
+border: 1px solid #bbb0b0;
+border-radius: 0.2em;
+}
+
+.form_input--comentario {
+resize: none;
+padding: 1.8em 1em;
+margin-bottom: 1.5em;
+}
+
+.form_enviar {
+  color: #fff;
+  background-color: #089fe0;
+border: none;
+font-weight: 300;
+font-size: 1rem;
+padding: .7em 0;
+border-radius: .2em;
+cursor: pointer;
+font-weight: 400;
+
+
+}
 
 
 /* css de footer */
@@ -345,9 +401,6 @@ ul {
   list-style: none;
 }
 
-/* media querie de AL MENOS 768PX OSEA ESO PAR QUE SE EJECUTE. */
-/* Min-width: Si el contenido tiene un ancho menor a XXXpx, usaremos un párrafo con XX px de tamaño. Osea, min-width: de ACA para arriba */
-/* MAX-width: de XXXpx para abajo */
 @media screen and (max-width: 768px) {
 
   /* media query para index 768px */
@@ -466,7 +519,16 @@ ul {
     border-radius: 20px;
   }
 
-  /* Sección "quienes Somos" */
+  /* Pagina Contacto */
+
+  .propiedades-titulo-sub--contacto {
+padding-top: 50px;
+  }
+
+  .form {
+    padding: 3.5em 1em;
+}
+    /* Sección "quienes Somos" */
 
   .quienes-somos {
     line-height: 1.7;
@@ -518,7 +580,8 @@ ul {
     flex-direction: column;
   }
 
-  EDITARRRR ESTOOOOO .redes-footer__2 {
+  /* mejorar este footer */
+  .redes-footer__2 {
     width: 33%;
     display: flex;
     justify-content: center;
