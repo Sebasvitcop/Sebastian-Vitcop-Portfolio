@@ -164,7 +164,6 @@ nav div a img {
 
 .imagenes__productos {
   width: 100%;
-  object-fit: cover;
   height: 100%; }
 
 .conoceMas {
@@ -233,6 +232,9 @@ nav div a img {
   margin: 40px; }
 
 /* Pagina "Quienes Somos" */
+.quienes-somos-conteniner {
+  padding-bottom: 56px; }
+
 .quienes-somos {
   line-height: 1.7;
   text-align: justify;
@@ -274,9 +276,13 @@ nav div a img {
     padding: 20px; }
 
 /* Pagina Contacto */
+.propiedades-titulo-sub--contacto {
+  padding-top: 50px; }
+
 .formulario {
   display: flex;
-  height: 140vh;
+  flex-direction: column;
+  height: 150vh;
   width: 100%; }
 
 .form {
@@ -356,7 +362,6 @@ footer {
   line-height: 1.4;
   flex-direction: column; }
 
-/* mejorar este footer */
 .redes-footer__2 {
   width: 80%;
   display: flex;
@@ -449,8 +454,6 @@ footer {
     font-weight: bold;
     margin: 50px; }
   /* Pagina Contacto */
-  .propiedades-titulo-sub--contacto {
-    padding-top: 50px; }
   .form {
     padding: 3.5em 1em; }
   /* Sección "quienes Somos" */
@@ -458,7 +461,7 @@ footer {
     font-size: 14px;
     line-height: 1.7;
     color: #595555;
-    padding: 21px;
+    padding: 14px 21px 0 21px;
     margin: 8px; }
   /* productos */
   .imagenes-productos {
@@ -475,7 +478,7 @@ footer {
     margin: 20px 0; } }
 
 @media screen and (max-width: 500px) {
-  /* media query para index 450px */
+  /* media query para index 500px */
   * .propiedades-p1 p {
     font-size: 16px; }
   header {
@@ -516,10 +519,16 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center; }
+  .redes-footer__1 {
+    font-size: 16px; }
+  .redes-footer__2 {
+    font-size: 16px;
+    width: 100%; }
   .redes-footer {
     display: flex;
     flex-direction: column;
-    width: 100%; }
+    width: 100%;
+    padding: 22px 0 22px 22px; }
   .redes-footer__2 h3 {
     padding-bottom: 10px; } }
 

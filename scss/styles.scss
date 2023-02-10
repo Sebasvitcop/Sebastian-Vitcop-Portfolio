@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+
   ul {
     list-style: none;
   }
-  
+
 }
 
 html,
@@ -48,8 +49,8 @@ header svg {
 /* Lo solucioné sacando el heigh y width del HTML de la img y sacando el padding en css de la img, pero agregando un width 10% */
 
 .navbar {
-z-index: 1;
-padding: 0;
+  z-index: 1;
+  padding: 0;
 }
 
 nav div a img {
@@ -66,8 +67,8 @@ nav div a img {
   background-repeat: no-repeat;
   background-size: contain;
   min-height: calc(100vh - 50px);
- 
- }
+
+}
 
 .seccion-1 {
   display: flex;
@@ -195,7 +196,6 @@ nav div a img {
 
 .imagenes__productos {
   width: 100%;
-  object-fit: cover;
   height: 100%;
 }
 
@@ -274,6 +274,11 @@ nav div a img {
 }
 
 /* Pagina "Quienes Somos" */
+
+.quienes-somos-conteniner {
+  padding-bottom: 56px;
+}
+
 .quienes-somos {
   line-height: 1.7;
   text-align: justify;
@@ -311,22 +316,29 @@ nav div a img {
   justify-content: center;
   align-items: center;
   background-color: white;
+
   &:h2 {
     margin-top: 30px;
   }
+
   &:p {
     margin-top: 20px;
     font-size: 18px;
     text-align: justify;
     padding: 20px;
-    }
+  }
 }
 
 /* Pagina Contacto */
 
+.propiedades-titulo-sub--contacto {
+  padding-top: 50px;
+}
+
 .formulario {
   display: flex;
-  height: 140vh;
+  flex-direction: column;
+  height: 150vh;
   width: 100%;
 }
 
@@ -394,13 +406,16 @@ a {
 footer {
   background-color: rgb(27, 24, 24);
   color: white;
-  width:100%;
+  width: 100%;
+
   a {
     color: white;
   }
+
   ul {
     padding: 0;
   }
+
   p {
     margin-bottom: 0;
   }
@@ -422,7 +437,6 @@ footer {
   flex-direction: column;
 }
 
-/* mejorar este footer */
 .redes-footer__2 {
   width: 80%;
   display: flex;
@@ -431,7 +445,6 @@ footer {
   letter-spacing: 0px;
   flex-direction: column;
 }
-
 
 @media screen and (max-width: 768px) {
 
@@ -548,10 +561,6 @@ footer {
   }
 
   /* Pagina Contacto */
-  .propiedades-titulo-sub--contacto {
-    padding-top: 50px;
-  }
-
   .form {
     padding: 3.5em 1em;
   }
@@ -561,7 +570,7 @@ footer {
     font-size: 14px;
     line-height: 1.7;
     color: rgb(89, 85, 85);
-    padding: 21px;
+    padding: 14px 21px 0 21px;
     margin: 8px;
   }
 
@@ -582,11 +591,10 @@ footer {
     height: auto;
     margin: 20px 0;
   }
-
 }
 
 @media screen and (max-width: 500px) {
-  /* media query para index 450px */
+  /* media query para index 500px */
 
   * .propiedades-p1 p {
     font-size: 16px;
@@ -654,12 +662,25 @@ footer {
 
   // footer
 
+  .redes-footer__1 {
+    font-size: 16px;
+  }
+
+  .redes-footer__2 {
+    font-size: 16px;
+    width: 100%;
+  }
+
   .redes-footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    
+    padding: 22px 0 22px 22px;
   }
+
+
+
+
 
   .redes-footer__2 h3 {
     padding-bottom: 10px;
@@ -672,18 +693,8 @@ footer {
     text-align: right;
   }
 
-nav div button .navbar-toggler {
-  text-align: right;
-}
+  nav div button .navbar-toggler {
+    text-align: right;
+  }
 
 }
-
-
-
-
-
-
-
-
-
-
