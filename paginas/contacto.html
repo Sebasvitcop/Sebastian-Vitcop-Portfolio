@@ -10,8 +10,8 @@
     <!-- link boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-     <!-- icons and animated -->
-        <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <!-- icons and animated -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- link css -->
     <link rel="stylesheet" href="../css/estilos.css">
@@ -24,24 +24,44 @@
 
 <body>
     <header class="header">
-        <!--parte de mas arriba con una barra con texto en mayusc. que diga envios y algun texto mas centrado. Es una barra con texto que acompaña el scroll de la pagina y que dice algo como esto -->
         <div class="propiedades-p1">
             <span>A PARTIR DE $3000 ENVÍO GRATIS EN CABA</span>
         </div>
-        <!-- En la esquina arriba a la derecha, en la misma barra que ese texto, estan los logos de las redes sociales que llevan a un link aparte a cada red. Algunas todavia no tienen link porque faltan -->
-
-        <!-- links redes sociales arriba a la derecha-->
+        <!-- links redes sociales -->
         <div class="iconos-header">
-            <a href="mailto:emkm.suplementos@gmail.com" target=”_blank”><img src="../imagenes/mail-logo.jpg" alt="mail"
-                    width="40" height="40"></a>
+            <a href="mailto:emkm.suplementos@gmail.com" target=”_blank”><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-mail" width="32" height="32" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
+                    <path d="M3 7l9 6l9 -6"></path>
+                </svg></a>
             <!--aun no tenemos fb-->
-            <a href="" target=”_blank”><img src="../imagenes/fb-logo.jpg" alt="Facebook" width="40" height="40"></a>
-            <a href="https://www.instagram.com/emkmsuplementos/" target=”_blank”><img src="../imagenes/ig-logo.png"
-                    alt="instagram" width="40" height="40"></a>
-            <a href="https://api.whatsapp.com/send?phone=01131015430&text=Hola, como estas?" target=”_blank”><img
-                    src="../imagenes/wsp-logo.jpg" alt="whatsapp" width="40" height="40"><a>
+            <a href="" target=”_blank”><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-facebook" width="32" height="32" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                </svg></a>
+            <a href="https://www.instagram.com/emkmsuplementos/" target=”_blank”><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-instagram" width="32" height="32" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                    <path d="M16.5 7.5l0 0"></path>
+                </svg></a>
+            <a href="https://api.whatsapp.com/send?phone=01131015430&text=Hola, como estas?" target=”_blank”><svg
+                    xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="32"
+                    height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+                    <path
+                        d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1">
+                    </path>
+                </svg><a>
         </div>
-
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg bg-cuerpo">
             <div class="container-fluid">
@@ -67,11 +87,9 @@
     </header>
     <main class="main">
         <section>
-            
         </section>
         <section class="formulario">
-            <h1
-                class="propiedades-titulo propiedades-titulo-sub--contacto animate__animated animate__pulse">
+            <h1 class="propiedades-titulo propiedades-titulo-sub--contacto animate__animated animate__pulse">
                 Ponete en contacto</h1>
             <form class="form">
                 <div class="form__container">
@@ -115,29 +133,43 @@
                 <ul>
                     <li>
                         <a href="https://api.whatsapp.com/send?phone=01131015430&text=Hola, como estas?"
-                            target=”_blank”><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            target=”_blank”><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-brand-whatsapp" width="32" height="32"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                 <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
-                                <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"></path>
-                             </svg>
+                                <path
+                                    d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1">
+                                </path>
+                            </svg>
                             +54 9 11 31015430
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:emkm.suplementos@gmail.com" target=”_blank”><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
-                            <path d="M3 7l9 6l9 -6"></path>
-                         </svg> emkm.suplementos@gmail.com
+                        <a href="mailto:emkm.suplementos@gmail.com" target=”_blank”><svg
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="32"
+                                height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z">
+                                </path>
+                                <path d="M3 7l9 6l9 -6"></path>
+                            </svg> emkm.suplementos@gmail.com
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/emkmsuplementos/" target=”_blank”><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
-                            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
-                            <path d="M16.5 7.5l0 0"></path>
-                         </svg> @emkmsuplementos
+                        <a href="https://www.instagram.com/emkmsuplementos/" target=”_blank”><svg
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                                width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z">
+                                </path>
+                                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                                <path d="M16.5 7.5l0 0"></path>
+                            </svg> @emkmsuplementos
                         </a>
                     </li>
                 </ul>
