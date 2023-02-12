@@ -297,7 +297,7 @@ nav div a img {
 
 /* Pagina Productos */
 .pagina-productos__conteniner {
-gap: 42px;
+  gap: 42px;
 }
 
 /* Pagina Como Comprar */
@@ -305,7 +305,7 @@ gap: 42px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  // background-color: #f4E7C;
+  padding-top: 50px;
 }
 
 .card-como-comprar {
@@ -318,7 +318,7 @@ gap: 42px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-image: linear-gradient(to top, #d1eee0 0%, #edefed 100%);
 
@@ -328,11 +328,19 @@ gap: 42px;
   }
 
   p {
-
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     padding: 20px;
   }
+}
+
+.div-como-comprar {
+  padding: 20px;
+}
+
+.texto-como-comprar {
+  text-align: center;
+  font-size: 20px;
 }
 
 /* Pagina Contacto */
@@ -486,7 +494,6 @@ footer {
         img {
           width: 14%;
           padding: 0;
-          margin: 0%;
         }
       }
     }
@@ -614,25 +621,23 @@ footer {
 
   /* productos */
   .pagina-productos__conteniner {
-  height: auto;
-  padding-bottom: 90px;
-  padding-top: 35px;
-  padding-right: 0;
-  margin-bottom: 0;
-  margin-left: 35px;
-  margin-right: 35px;
+    height: auto;
+    padding-bottom: 90px;
+    padding-top: 35px;
+    padding-right: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
+    margin-right: 35px;
   }
 
   // pagina como comprar
   .card-como-comprar {
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
+    width: 250px;
+    height: 350px;
 
     p {
       font-size: 24px;
       margin: 0px;
-      text-align: justify;
       padding: 20px;
     }
   }
@@ -672,9 +677,7 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .imagenes__productos {
-
-  }
+  .imagenes__productos {}
 
 
   .alert-success {
