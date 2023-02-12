@@ -244,7 +244,6 @@ nav div a img {
   width: 100%;
 }
 
-
 .simbolos__1 {
   width: 33%;
   display: flex;
@@ -297,8 +296,8 @@ nav div a img {
 }
 
 /* Pagina Productos */
-.imagenes-seccion-productos {
-  // height: 200px;
+.pagina-productos__conteniner {
+gap: 42px;
 }
 
 /* Pagina Como Comprar */
@@ -614,15 +613,15 @@ footer {
   }
 
   /* productos */
-  // .imagenes-seccion-productos {
-  //   height: 600px;
-  //   display: grid;
-  //   height: auto;
-  //   gap: 30px;
-  //   padding-right: 10px;
-  //   grid-template-columns: repeat(2, 1fr);
-  //   grid-template-rows: repeat(2, 280px);
-  // }
+  .pagina-productos__conteniner {
+  height: auto;
+  padding-bottom: 90px;
+  padding-top: 35px;
+  padding-right: 0;
+  margin-bottom: 0;
+  margin-left: 35px;
+  margin-right: 35px;
+  }
 
   // pagina como comprar
   .card-como-comprar {
@@ -674,7 +673,7 @@ footer {
   }
 
   .imagenes__productos {
-    
+
   }
 
 
