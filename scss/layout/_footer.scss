@@ -1,0 +1,50 @@
+/* css de footer */
+
+.propiedad-p3 {
+  background-color: rgb(27, 24, 24);
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(27, 24, 24);
+  color: white;
+  width: 100%;
+
+  a {
+    color: white;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.redes-footer {
+  display: flex;
+  padding: 40px;
+}
+
+.redes-footer__1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 1.4;
+  flex-direction: column;
+}
+
+.redes-footer__2 {
+  width: 80%;
+  display: flex;
+  align-items: initial;
+  font-size: 20px;
+  letter-spacing: 0px;
+  flex-direction: column;
+}

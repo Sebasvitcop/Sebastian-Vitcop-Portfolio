@@ -1,0 +1,46 @@
+header {
+  .iconos-header {
+    text-align: right;
+    text-decoration: none;
+    background-color: $bg-principal;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .propiedades-p1 {
+    color: hwb(0 100% 0%);
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(181, 153, 117);
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  svg {
+    color: rgb(40, 37, 37);
+  }
+}
+
+.header {
+  background-color: $bg-principal;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav div a img {
+  margin-left: 30px;
+  margin-right: 16px;
+  width: 12%;
+  padding: 0;
+  align-items: flex-start;
+}
+
+.navbar {
+  z-index: 1;
+  padding: 0;
+}

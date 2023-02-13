@@ -1,0 +1,185 @@
+@media screen and (max-width: 991px) {
+  // media para ajustar punto de ruptura de menú hamburguesa de bootstrap que se corre a la izquierda
+
+  .navbar-nav {
+    text-align: right;
+  }
+
+  .navbar .container-fluid {
+    padding: 0px;
+    margin-right: 18px;
+  }
+
+  nav div button .navbar-toggler {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* media query para index 768px */
+  .iconos-header {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    margin: 0px;
+    align-items: end;
+  }
+
+  .propiedades-p1 {
+    margin: 0%;
+  }
+
+  nav {
+    div {
+      a {
+        img {
+          width: 14%;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .img-logo {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  .navbar .container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .seccion-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .seccion-1-izq {
+    width: 94%;
+    margin-top: 35px;
+  }
+
+  main .seccion-1 div img {
+    border-radius: 20%;
+  }
+
+  .seccion-1-der {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+
+  .imagenes {
+    display: grid;
+    height: auto;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 280px);
+  }
+
+  .ofertas {
+    margin-top: 35px;
+  }
+
+  .responsive-iframe {
+    width: 80%;
+  }
+
+  .simbolos {
+    display: flex;
+    flex-shrink: 2;
+    flex-basis: 100px;
+    margin-top: 40px;
+    background-color: darkgrey;
+    color: black;
+    margin-bottom: 0;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .simbolos__1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 50px;
+  }
+
+  .simbolos__2 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 50px;
+  }
+
+  .simbolos__3 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 50px;
+  }
+
+  /* Pagina Contacto */
+  .form {
+    padding: 3.5em 1em;
+  }
+
+  /* Sección "quienes Somos" */
+  .quienes-somos {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgb(89, 85, 85);
+    padding: 14px 21px 0 21px;
+    margin: 8px;
+  }
+
+  /* productos */
+  .pagina-productos__conteniner {
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 35px;
+    padding-right: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  // pagina como comprar
+  .card-como-comprar {
+    width: 250px;
+    height: 350px;
+
+    p {
+      font-size: 24px;
+      margin: 0px;
+      padding: 20px;
+    }
+  }
+}
