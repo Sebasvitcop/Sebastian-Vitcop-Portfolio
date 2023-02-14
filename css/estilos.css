@@ -50,7 +50,9 @@ nav div a img {
 
 .navbar {
   z-index: 1;
-  padding: 0; }
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap; }
 
 .main {
   background: #F4E7CA;
@@ -415,7 +417,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: nowrap; }
+    justify-content: flex-end; }
   .seccion-1 {
     display: flex;
     flex-direction: column;
@@ -501,7 +503,10 @@ footer {
     padding-right: 0;
     margin-bottom: 0;
     margin-left: 35px;
-    margin-right: 35px; }
+    margin-right: 35px;
+    gap: 42px;
+    height: auto;
+    margin-bottom: 65px; }
   .card-como-comprar {
     width: 250px;
     height: 350px; }
@@ -528,7 +533,10 @@ footer {
   .propiedades-titulo {
     margin-bottom: 0px; }
   .imagenes {
-    grid-template-columns: repeat(1, 1fr); }
+    display: flex;
+    flex-direction: column; }
+  .imagenes__grid__hijo {
+    width: 100%; }
   .alert-success {
     display: block; }
   .simbolos {

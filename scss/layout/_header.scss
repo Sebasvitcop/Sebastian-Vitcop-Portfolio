@@ -43,4 +43,6 @@ nav div a img {
 .navbar {
   z-index: 1;
   padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
 }

@@ -52,7 +52,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: nowrap;
+    // flex-wrap: nowrap;
+    justify-content: flex-end;
   }
 
   .seccion-1 {
@@ -169,17 +170,74 @@
     margin-bottom: 0;
     margin-left: 35px;
     margin-right: 35px;
-  }
+    gap: 42px;
+    height: auto;
+    margin-bottom: 65px;
 
-  // pagina como comprar
-  .card-como-comprar {
-    width: 250px;
-    height: 350px;
+    
+  // display: grid;
+  //   grid-template-rows: repeat(4, 250px);
+  // grid-template-areas: 
+  // "centella"
+  //  "quelat"
+  // "stevia"
+  //  "te-matcha"
+  // "quelat-2"
+  //  "stevia-aloe"
+  // "zuelo"
+  //  "mayo";
+}
 
-    p {
-      font-size: 24px;
-      margin: 0px;
-      padding: 20px;
-    }
+// .imagenes__grid__hijo--1 {
+//   justify-self: center;
+//   grid-area: centella;
+// }
+
+// .imagenes__grid__hijo--2 {
+//   justify-self: center;
+//   grid-area: quelat;
+// }
+
+// .imagenes__grid__hijo--3 {
+//   width: auto;
+//   justify-self: center;
+//   grid-area: stevia;
+// }
+
+// .imagenes__grid__hijo--4 {
+//   justify-self: center;
+//   grid-area: te-matcha;
+// }
+
+// .imagenes__grid__hijo--5 {
+//   justify-self: center;
+//   grid-area: quelat-2;
+// }
+
+// .imagenes__grid__hijo--6 {
+//   justify-self: center;
+//   grid-area: stevia-aloe;
+// }
+
+// .imagenes__grid__hijo--7 {
+//   justify-self: center;
+//   grid-area: zuelo;
+// }
+
+// .imagenes__grid__hijo--8 {
+//   justify-self: center;
+//   grid-area: mayo;
+// }
+
+// pagina como comprar
+.card-como-comprar {
+  width: 250px;
+  height: 350px;
+
+  p {
+    font-size: 24px;
+    margin: 0px;
+    padding: 20px;
   }
+}
 }

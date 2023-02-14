@@ -29,10 +29,18 @@
   }
 
   .imagenes {
-    grid-template-columns: repeat(1, 1fr);
+display: flex;
+flex-direction: column;
+
   }
 
-  // .imagenes__productos {}
+  .imagenes__grid__hijo {
+width:100% ;
+  }
+
+  .imagenes__productos {
+
+  }
 
   .alert-success {
     display: block;
