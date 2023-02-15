@@ -1,7 +1,8 @@
-# Sebastian-Vitcop-Portfolio
-Proyecto de dietética online
+# Proyecto de dietética online
+# **EMKM Suplementos**
+## **Dietética Online**
 
-¡Bienvenido a nuestra Tienda Online de Dietética Emkm Suplementos!
+**¡Bienvenido a nuestra Tienda Online de Dietética Emkm Suplementos!**
 
 En nuestra dietética online, nos esforzamos por ofrecer productos naturales y orgánicos para mejorar la salud y el bienestar de nuestros clientes. Ofrecemos una amplia gama de productos dietéticos, desde suplementos hasta alimentos orgánicos, todo seleccionado cuidadosamente para garantizar su calidad y frescura.
 
@@ -12,3 +13,19 @@ Además, brindamos un excelente servicio al cliente y estamos siempre dispuestos
 ¡Gracias por visitar nuestra Dietética Online de EMKM suplementos!
 
  Esperamos que encuentres todo lo que necesitas para mejorar tu salud y bienestar. ¡Hacenos tu pedido hoy mismo!
+ 
+ --------
+> Este proyecto es para el curso de Coderhouse de Desarrolllo Web. 
+
+> Se trata de una Tienda de dietética Online Argentina que vende productos alimenticios, suplementos y productos naturales. Hacemos envíos a todo el país.
+
+### Herramientas utilizadas en el curso: 
+- HTML
+- CSS
+SCSS como preprocesador. 
+
+---
+
+
+
+
