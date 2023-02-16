@@ -15,7 +15,7 @@ Además, brindamos un excelente servicio al cliente y estamos siempre dispuestos
  Esperamos que encuentres todo lo que necesitas para mejorar tu salud y bienestar. ¡Hacenos tu pedido hoy mismo!
  
  --------
-> Este proyecto es para el curso de Coderhouse de Desarrolllo Web. 
+> Este proyecto es para el curso de Coderhouse de Desarrollo Web. 
 
 > Se trata de una Tienda de dietética Online Argentina que vende productos alimenticios, suplementos y productos naturales. Hacemos envíos a todo el país.
 
